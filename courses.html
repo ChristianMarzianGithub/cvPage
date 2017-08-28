@@ -201,11 +201,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p id = "copyRight">Copyright &copy; Christian Marzian 2016</p>
+                    <p>
+                        <div id = jahr>asdf
+                        </div> 
+                    </p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script >
+        var heute = new Date();
+        
+        document.getElementById('jahr').innerHTML = "Copyright &copy; Christian Marzian " + heute.getFullYear() ;
+    </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
